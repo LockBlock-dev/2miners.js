@@ -48,14 +48,14 @@ const { Client } = require("./index.js")
 
 const client = new Client("pool") //example : ETH or solo-ETH
 
-client.status().then(data => {
+client.stats().then(data => {
     console.log(data)
 })
 
 //OR
 
 const myFunc = async () => {
-    const data = await client.status()
+    const data = await client.stats()
     console.log(data)
 }
 
