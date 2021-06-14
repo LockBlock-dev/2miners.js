@@ -44,7 +44,7 @@ See the [API documentation](/API.md).
 ### Using the library
 
 ```js
-const { Client } = require("./index.js")
+const { Client } = require("2miners.js")
 
 const client = new Client("pool") //example : ETH or solo-ETH
 
