@@ -1,8 +1,8 @@
 # 2miners.js
 
-Made with [![axios](https://img.shields.io/github/package-json/dependency-version/LockBlock-dev/2miners.js/axios)](https://www.npmjs.com/package/axios)
+[![axios](https://img.shields.io/github/package-json/dependency-version/LockBlock-dev/2miners.js/axios)](https://www.npmjs.com/package/axios)
 
-[![GitHub stars](https://img.shields.io/github/stars/LockBlock-dev/2miners.js.svg)](https://github.com/LockBlock-dev/2miners.js/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/LockBlock-dev/2miners.js.svg)](https://github.com/LockBlock-dev/2miners.js/stargazers) ![npm](https://img.shields.io/npm/dm/2miners.js)
 
 2miners.js is a Node.js module that allows you to easily interact with the 2miners API.
 
