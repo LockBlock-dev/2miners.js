@@ -1,5 +1,6 @@
 const axios = require('axios').default
 const errors = require('./errors')
+const pkg = require("../package.json")
 
 exports.Client = class Client {
     constructor(pool) {
@@ -41,7 +42,7 @@ exports.Client = class Client {
         method: "GET",
         url: this.#buildURL(path),
         headers: {
-          "User-Agent": `2miners.js ${require("../package.json").version} (https://github.com/LockBlock-dev/2miners.js)`,                  
+          "User-Agent": `2miners.js ${pkg.version} (https://github.com/LockBlock-dev/2miners.js)`,                  
           "Content-Type": "application/json",
           "Accept-Encoding": "UTF8",
         }
