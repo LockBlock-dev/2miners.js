@@ -44,7 +44,6 @@ exports.Client = class Client {
         headers: {
           "User-Agent": `2miners.js ${pkg.version} (https://github.com/LockBlock-dev/2miners.js)`,                  
           "Content-Type": "application/json",
-          "Accept-Encoding": "UTF8",
         }
       }
 
